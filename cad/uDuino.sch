@@ -5512,7 +5512,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="RBBB" deviceset="SUPPLY_GND" device=""/>
 <part name="J1" library="RBBB" deviceset="POWER_JACK" device="&quot;"/>
 <part name="D1" library="adafruit" deviceset="1N4004" device=""/>
-<part name="U$1" library="RBBB" deviceset="1X02_HEADER" device=""/>
+<part name="JP5" library="RBBB" deviceset="1X02_HEADER" device=""/>
 <part name="IC2" library="RBBB" deviceset="ATMEGA328" device="&quot;" value="ATMEGA328"/>
 <part name="GND2" library="RBBB" deviceset="SUPPLY_GND" device=""/>
 <part name="P+2" library="RBBB" deviceset="SUPPLY_5V" device=""/>
@@ -5550,7 +5550,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND1" gate="1" x="20.32" y="-33.02"/>
 <instance part="J1" gate="G$1" x="-17.78" y="-10.16"/>
 <instance part="D1" gate="1" x="0" y="-15.24" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-5.08" y="12.7" rot="R90"/>
+<instance part="JP5" gate="G$1" x="-5.08" y="12.7" rot="R90"/>
 <instance part="IC2" gate="G$1" x="22.86" y="91.44"/>
 <instance part="GND2" gate="1" x="-27.94" y="48.26"/>
 <instance part="P+2" gate="1" x="-17.78" y="137.16"/>
@@ -5601,7 +5601,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="0" y1="-12.7" x2="0" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="0" y="-2.54"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="-7.62" y="-2.54"/>
 </segment>
@@ -5691,7 +5691,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D1" gate="1" pin="A"/>
 <wire x1="0" y1="-17.78" x2="0" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="0" y="-25.4"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-25.4"/>
 </segment>

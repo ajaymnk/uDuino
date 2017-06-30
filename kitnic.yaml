@@ -1,0 +1,4 @@
+summary: Arduino compatible AVR Development Board
+site: https://github.com/intajay/uduino
+color: purple
+bom: bom/bom.tsv
